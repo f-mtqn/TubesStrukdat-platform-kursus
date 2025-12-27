@@ -469,8 +469,8 @@ void menuHitungModul(List L) {
     pauseScreen();
 }
 
-// IS: Terdapat minimal satu kursus dan satu modul yang terhubung di dalam list.
-// FS: Modul yang dipilih berhasil dihapus dari kursus terkait.
+// I.S.: List L terdefinisi.
+// F.S.: Menampilkan daftar kursus dan modul, meminta input ID, lalu menghapus modul dari list jika ditemukan.
 void menuHapusModul(List &L) {
     string idK, idM;
     clearScreen();
